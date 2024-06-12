@@ -621,4 +621,4 @@ Error generating stack: `+o.message+`
 
 
 
-`,A0=()=>g.jsx(g.Fragment,{children:g.jsxs(j1,{children:[g.jsx(F0,{}),g.jsx(M0,{}),g.jsxs(v0,{children:[g.jsx(fn,{exact:!0,path:"/",element:g.jsx(I0,{})}),g.jsx(fn,{path:"/about",element:g.jsx(Kd,{})}),g.jsx(fn,{path:"/services",element:g.jsx(Td,{})}),g.jsx(fn,{path:"/contact",element:g.jsx(Qd,{})}),g.jsx(fn,{path:"/portfolio",element:g.jsx(Yd,{})})]})]})});ci.createRoot(document.getElementById("root")).render(g.jsx(C0,{children:g.jsx(A0,{})}));
+`,A0=()=>g.jsx(g.Fragment,{children:g.jsxs(j1,{children:[g.jsx(F0,{}),g.jsx(M0,{}),g.jsxs(v0,{children:[g.jsx(fn,{exact:!0,path:"",element:g.jsx(I0,{})}),g.jsx(fn,{path:"/about",element:g.jsx(Kd,{})}),g.jsx(fn,{path:"/services",element:g.jsx(Td,{})}),g.jsx(fn,{path:"/contact",element:g.jsx(Qd,{})}),g.jsx(fn,{path:"/portfolio",element:g.jsx(Yd,{})})]})]})});ci.createRoot(document.getElementById("root")).render(g.jsx(C0,{children:g.jsx(A0,{})}));
