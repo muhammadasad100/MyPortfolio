@@ -91,7 +91,7 @@ const Wrapper = styled.section`
       transition: none;
     }
     .card:hover {
-      background-color: none;
+      background-color: #333;
       transform: none; /* Increase the card size a bit on hover */
       box-shadow: none;
     }

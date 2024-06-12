@@ -23,7 +23,7 @@ const Header = () => {
 
             <ul className={isMenuOpen ? "nav-links active" : "nav-links"}>
               <li>
-                <NavLink to="home " onClick={() => setIsMenuOpen(false)}>
+                <NavLink to="/" onClick={() => setIsMenuOpen(false)}>
                   Home
                 </NavLink>
               </li>

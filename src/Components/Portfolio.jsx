@@ -40,10 +40,10 @@ const Portfolio = () => {
         flex-wrap: wrap;
         column-gap: 0rem;
         row-gap: 2rem;
-        padding: 0 3rem;
+        padding: 0 0rem;
       }
       .box {
-        padding: 0 0rem;
+        padding: 0 2rem;
         margin: auto;
       }
       .image {

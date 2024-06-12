@@ -92,7 +92,7 @@ const About = () => {
       align-self: flex-start;
     } */
     .nav-links {
-      margin-top: 1rem;
+      /* margin-top: 1rem; */
       display: flex;
       list-style: none;
     }

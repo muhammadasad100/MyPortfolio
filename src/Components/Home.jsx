@@ -51,14 +51,19 @@ const Home = () => {
       border: none;
       cursor: pointer;
       transition: background-color 0.3s;
-      border: 1px solid;
+      //  border: 1px solid;
+      list-style: none;
+      text-decoration: none;
     }
     .cta-button:hover {
       background-color: #555;
     }
+    a {
+      text-decoration: none;
+    }
     @media screen and (max-width: 768px) {
       .rowno {
-        margin-top: 3rem;
+        margin-top: 2rem;
         display: flex;
         flex-direction: column;
       }
@@ -70,12 +75,12 @@ const Home = () => {
       }
 
       .intro p {
-        font-size: 2.5rem;
-        margin-bottom: 2rem;
+        font-size: 2rem;
+        margin-bottom: 1rem;
       }
       span {
-        margin-top: 1rem;
-        font-size: 2rem;
+        margin-top: 0.5rem;
+        font-size: 1.7rem;
       }
     }
   `;
@@ -92,9 +97,14 @@ const Home = () => {
                 And I'm a <br />{" "}
                 <span className="color">Mern Stack Developer.</span>
               </p>
-              <NavLink to="/about">
-                <button className="cta-button">About me</button>
-              </NavLink>
+
+              <a
+                className="cta-button"
+                href="/Images/resume.pdf"
+                download="resume.pdf"
+              >
+                Download Resume
+              </a>
             </div>
             <div className="imagesec">
               <img src="/Images/home.jpg" alt="" className="image" />
