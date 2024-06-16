@@ -94,16 +94,16 @@ const Api = [
   {
     portfolio: [
       {
-        image: "Images/ecomrace.png",
+        image: "./Images/ecomrace.png",
       },
       {
-        image: "Images/weather.png",
+        image: "./Images/weather.png",
       },
       {
-        image: "Images/todolist.png",
+        image: "./Images/todolist.png",
       },
       {
-        image: "Images/portfolio.png",
+        image: "./Images/portfolio.png",
       },
 
       {
