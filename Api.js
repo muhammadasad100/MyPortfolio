@@ -107,7 +107,7 @@ const Api = [
       },
 
       {
-        image: "Images/resturant.png",
+        image: "./Images/resturant.png",
       },
     ],
   },
