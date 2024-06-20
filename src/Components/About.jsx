@@ -144,7 +144,7 @@ const About = () => {
           <h1 className="center color">About Me</h1>
           <div className="rowno">
             <div className="imagesec">
-              <img src="../Images/asad.png" alt="Asad" className="images" />
+              <img src="../Images/asad.png" alt="" className="images" />
             </div>
             <div className="contentsec">
               <p className="parasize">
